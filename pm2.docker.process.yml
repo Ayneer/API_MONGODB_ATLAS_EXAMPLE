@@ -1,0 +1,7 @@
+apps:
+  - script   : src/index.js
+    name     : 'sios-Asistencial-Admisiones-services'
+    max_memory_restart: 250M
+    log_date_format: "YYYY/MM/DD HH:mm:ss"
+    instances: 2
+    exec_mode: cluster
